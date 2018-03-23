@@ -35,7 +35,7 @@ Naive pseudocode for planning our app:
 def myround(x, base=5):
     return int(base * round(float(x)/base))
 ```
-* *Surely forgetting about of things that need to happen here*
+* *Surely forgetting many things that need to happen here*
 * Print:  
     ```
     Day, mm/dd/yyyy # (cursed U.S. time system)  
