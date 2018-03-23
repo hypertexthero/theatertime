@@ -30,11 +30,11 @@ Naive pseudocode for planning our app:
   * Elif Fri-Sun: 
     * Earliest movie Start_Time is 11:30
     * Latest movie Start_Time is (23:30 minus the Movie_Title Run_Time)
-* Scheduled times will be movie Run_Time with 35 minute intervals [rounded to five](https://stackoverflow.com/questions/2272149/round-to-5-or-other-number-in-python):
-      ```
-          def myround(x, base=5):
-              return int(base * round(float(x)/base))
-      ```
+* Scheduled times will be movie Run_Time with 35 minute intervals (theater setup time) [rounded to five](https://stackoverflow.com/questions/2272149/round-to-5-or-other-number-in-python):
+```
+def myround(x, base=5):
+    return int(base * round(float(x)/base))
+```
 * *Surely forgetting about of things that need to happen here*
 * Print:  
     ```
